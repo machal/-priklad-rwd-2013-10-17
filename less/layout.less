@@ -4,17 +4,18 @@
 
 */
 
+
 // Obrazky a tabulky na plnou sirku
 
 .content, .side {
-	img {
-		max-width: 100%;
-		height: auto;
-	}
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
-	table {
-		width: 100%;
-	}
+  table {
+    width: 100%;
+  }
 }
 
 // Sedive pozadi stranky
@@ -26,14 +27,14 @@ body {
 // Layout 
 
 .container {
-  width: 1000px;
+  max-width: 1000px;
   position: relative;
   margin: 3em auto;
   background: #fff;
   -webkit-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 1em rgba(0, 0, 0, 0.5);
-  color: 0px 0px 1em rgba(0, 0, 0, 0.5);
+  color: 0px 0px 1em rgba(0, 0, 0, 0.5);  
 }
 
 .logo {
@@ -43,15 +44,14 @@ body {
 
 .content {
   float: left;
-  padding-left: 30px;
-  padding-right: 30px;	
-  width: 540px; /* 600px */
+  padding-left: 30/1000*100%;
+  padding-right: 30/1000*100%;  
+  width: 540/1000*100%; 
 }
 
 .side {
   float: right;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 340px; /* 400px */
+  padding-left: 30/1000*100%;
+  padding-right: 30/1000*100%;
+  width: 340/1000*100%;
 }
-
